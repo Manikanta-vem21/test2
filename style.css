@@ -1,0 +1,112 @@
+h1{
+    text-align: center;
+    grid-column: span 2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 90px;
+    color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 190px 100px 400px 50px 50px;
+    height: 100vh;
+    gap: 2rem;
+}
+.p1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 25vw;
+    margin-left: 300px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.719);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(10, 137, 241, 0.233);
+    
+}
+.p2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(192, 183, 183);
+    border-radius: 10px;
+    width: 25vw;
+    background-color: rgba(255, 255, 255, 0.719);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(10, 137, 241, 0.233);
+    
+}
+img{
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+}
+h2{
+    grid-column: span 2;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 255, 0.705),rgba(180, 77, 248, 0.842));
+}
+.b1{
+  
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color:rgba(0, 0, 255, 0.705);
+    
+}
+.b2{
+  
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color:rgba(180, 77, 248, 0.842);
+    
+}
+.arrow1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px #fff,
+        0 0 10px #ffffff38,
+        0 0 20px rgba(202, 209, 212, 0.267),
+        0 0 30px rgb(228, 230, 228),
+        0 0 40px rgb(228, 230, 228),
+        0 0 55px rgb(228, 230, 228),
+        0 0 70px green;
+        visibility: visible;
+}
+.arrow2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px #fff,
+        0 0 10px #ffffff38,
+        0 0 20px rgba(202, 209, 212, 0.267),
+        0 0 30px rgb(228, 230, 228),
+        0 0 40px rgb(228, 230, 228),
+        0 0 55px rgb(228, 230, 228),
+        0 0 70px green;
+        margin-right: 270px;
+        visibility: hidden;
+}
+.head{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: #fff;
+}
